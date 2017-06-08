@@ -71,4 +71,45 @@
             <version>RELEASE</version>
         </dependency>
     </dependencies>
+
+    <repositories>
+        <!--repository>
+            <id>nexus</id>
+            <name>nexus</name>
+            <url>http://mydtbld0028.hpeswlab.net:8081/nexus/content/groups/leanft-public</url>
+        </repository>
+        -->
+        <repository>
+            <id>nexus</id>
+            <name>nexus</name>
+            <url>${nexus.server}/nexus/content/groups/public</url>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>nexus</id>
+            <name>nexus</name>
+            <url>${nexus.server}/nexus/content/groups/public</url>
+        </pluginRepository>
+    </pluginRepositories>
+    <profiles>
+        <profile>
+            <id>leanft-test</id>
+            <properties>
+                <test.src.dir>src/main/java</test.src.dir>
+            </properties>
+        </profile>
+        <profile>
+            <id>RnD</id>
+            <properties>
+                <nexus.server>http://mydtbld0028.hpeswlab.net:8081</nexus.server>
+            </properties>
+        </profile>
+        <profile>
+            <id>Nimbus</id>
+            <properties>
+                <nexus.server>http://dockerserver:9001</nexus.server>
+            </properties>
+        </profile>
+    </profiles>
 </project>
