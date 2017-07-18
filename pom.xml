@@ -79,20 +79,25 @@
             <url>http://mydtbld0028.hpeswlab.net:8081/nexus/content/groups/leanft-public</url>
         </repository>
         -->
+        <!-- This is for future use with a nexus server later
         <repository>
             <id>nexus</id>
             <name>nexus</name>
             <url>${nexus.server}/nexus/content/groups/public</url>
         </repository>
+        -->
     </repositories>
     <pluginRepositories>
+        <!-- This is for future use with a nexus server later
         <pluginRepository>
             <id>nexus</id>
             <name>nexus</name>
             <url>${nexus.server}/nexus/content/groups/public</url>
         </pluginRepository>
+        -->
     </pluginRepositories>
     <profiles>
+        <!-- This is for future use with a nexus server later
         <profile>
             <id>leanft-test</id>
             <properties>
@@ -111,5 +116,7 @@
                 <nexus.server>http://dockerserver:9001</nexus.server>
             </properties>
         </profile>
+        -->
     </profiles>
 </project>
+
