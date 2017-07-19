@@ -6,7 +6,7 @@ import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 @RunWith(OctaneCucumber.class)
-@CucumberOptions(plugin = {"junit:junitResult.xml"},
+@CucumberOptions(plugin = {"junit:junitResults.xml"},
                  features = "src/test/resources/features")
 public class TestRunner {
 
