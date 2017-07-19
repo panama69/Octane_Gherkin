@@ -5,7 +5,8 @@ In Jenkins, youw will need to create a Freestyle job and checkout the project fr
 
 I suggest you use the following for your Maven goals
 
-![JenkinsBuildSection](dockImg/jenkinsBuild.png?raw=true "Title")
+![Jenkins Build Section](docImg/jenkinsBuild.png?raw=true)
 
 And enter the following for your Post Build actions
-<image here>
+
+***image here
