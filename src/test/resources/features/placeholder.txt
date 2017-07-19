@@ -1,0 +1,1 @@
+this file is here so if you delete *.feature files in IntelliJ that the folder will remain for use
