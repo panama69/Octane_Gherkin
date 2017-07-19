@@ -7,6 +7,11 @@ I suggest you use the following for your Maven goals
 
 ![Jenkins Build Section](docImg/jenkinsBuild.png?raw=true)
 
-And enter the following for your Post Build actions
+And enter the following for your Post Build actions (You will see the message becasue the files it is looing for do not exist until after the test is executed)
 
-***image here
+![Jenkins Post Build Section](docImg/jenkinsPostBuild1.png?raw=true)
+
+After the test is executed, you should see the following when you look at the configuration
+
+
+![Jenkins Post Build Section](docImg/jenkinsPostBuild2.png?raw=true)
