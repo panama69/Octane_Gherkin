@@ -4,7 +4,8 @@ This script is a simple script to demonstrate the ability to have Cucumber tests
 In Jenkins, youw will need to create a Freestyle job and checkout the project from your git repo.
 
 I suggest you use the following for your Maven goals
-<image here>
+
+![JenkinsBuildSection](dockImg/jenkinsBuild.png?raw=true "Title")
 
 And enter the following for your Post Build actions
 <image here>
