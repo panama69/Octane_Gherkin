@@ -29,3 +29,12 @@ After the test is executed, you should see the following when you look at the co
 
 
 ![Jenkins Post Build Section](docImg/jenkinsPostBuild2.png?raw=true)
+
+**NOTE**
+
+Publish JUnit test result report
+* the file name shown above comes from the name used in the test project (src/test/java/net.hpe/TestRunner) class
+
+HPE Octane Cucumber test reporter
+* Generally speaking, you shouldn't need to enter anything.  This was done because at the time the format created by the octane-cucumber-jvm (found in your pom.xml) was different than what the Jenkins HPE Application Automation Tools 5.1 looked for.  This is not an issue if you use the Jenkins HPE Application Automation Tools 5.2
+
