@@ -14,7 +14,7 @@ I suggest you use the following for your Maven goals
 
 And enter the following for your Post Build actions 
 
-##![Jenkins Post Build Section](docImg/jenkinsPostBuild2.png?raw=true)
+
 
 **NOTE**
 
