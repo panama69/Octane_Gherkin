@@ -14,7 +14,7 @@ I suggest you use the following for your Maven goals
 
 And enter the following for your Post Build actions 
 
-![Jenkins Post Build Section](docImg/jenkinsPostBuild2.png?raw=true)
+##![Jenkins Post Build Section](docImg/jenkinsPostBuild2.png?raw=true)
 
 **NOTE**
 
@@ -23,4 +23,3 @@ Publish JUnit test result report
 
 HPE Octane Cucumber test reporter
 * Generally speaking, you shouldn't need to enter anything.  The above is based on the use of the Jenkins [HPE Application Automation Tools 5.2](https://wiki.jenkins.io/display/JENKINS/HPE+Application+Automation+Tools)
-
